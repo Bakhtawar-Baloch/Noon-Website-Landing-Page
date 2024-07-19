@@ -93,6 +93,10 @@ header {
   font-weight: 500;
 }
 
+.slideshow-container img {
+    display: flex;
+}
+
 .banner {
   padding: 10px 20px;
   background: white;
@@ -148,7 +152,7 @@ header {
 
 /* Hero Section */
 .hero-section {
-  height: 400px;
+  height: 200px;
   background-position: center;
   background-size: cover;
 }
