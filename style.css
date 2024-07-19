@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+a:hover {
+  color:  lightgray;
+}
+
+/* Header or Navbar */
+header {
+  width: 100%;
+  background-color: #fce83a;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color:  darkgray;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.nav-logo img {
+  margin-top: 10px;
+  width: 120px;
+  height: 50px;
+}
+
+.address .deliver {
+  display: flex;
+  margin-left: 20px;
+  font-size: 0.75rem;
+  color: darkgray;
+  display: flex;
+}
+
+.address .location img {
+  align-items: center;
+  width: 30px;
+  height: 20px;
+}
+
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 620px;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.search-input {
+  max-width: 600px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.language-container {
+    display: flex;
+}
+
+.cart {
+  display: flex;
+}
+
+.cart .cart-icon {
+  font-size: 2.5rem
+}
+
+.cart p {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.banner {
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  font-size: 0.875rem;
+  display: flex;
+}
+
+.banner-content {
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel {
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.panel a {
+    color: black;
+}
+
+.panel span {
+  margin-right: 7px;
+}
+
+.links {
+  display: flex;
+  align-items:center;
+  list-style: none;
+  gap: 15px;
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.links a {
+  padding: 10px 0;
+  color: black;
+}
+
+.deals a {
+  width: 45px;
+  height: 35px;
+  display: flex;
+  padding: 0px 0px 0px 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Shop Section */
+.shop-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  padding: 50px 0;
+}
+
+.shop-section h2 {
+    padding-right: 1000px;
+}
+
+.shop-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.shop-link {
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+
+.shop-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+/* Footer */
+.footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #37475a;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 60px;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.footer-items h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  margin: 20px 0 10px 0;
+}
+
+.footer-items ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.footer-items li a {
+  color: #000;
+  font-size: 0.875rem;
+}
+
+.footer-items li a:hover {
+  text-decoration: underline;
+}
+
+.Bottom-text a {
+  color: #000;
+  font-size: 0.80rem;
+  display: flex;
+  text-align: right;
+}
